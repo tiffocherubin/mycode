@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-def summ():
-    sample_list=(8,2,3,0,7)
+sample_list=(8,2,3,0,7)
+def summ(x):
     summ=i=0
-    for t in range(len(sample_list)):
-        summ = summ + sample_list[i]
+    for t in range(len(x)):
+        summ = summ + x[i]
+    print (" xxx  ")
     print (" The sum is ",summ)
     print (range(9))
-    print(len(sample_list))
-    print(list(range(len(sample_list))))
+    print(len(x))
+    print(list(range(len(x))))
 def multip():
     sample_list=(8,2,3,-1,7)
     mult=1
@@ -16,5 +17,5 @@ def multip():
         mult = mult * sample_list[i]
     print (" The mult is ",mult)
 
-summ()
+summ(sample_list)
 multip()
